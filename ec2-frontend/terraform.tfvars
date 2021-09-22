@@ -8,7 +8,7 @@ region = "sa-east-1"
 az_count = "3"
 
 // Nome da ec2
-ec2_name = "bastion"
+ec2_name = "frontend"
 
 // TIPO DE INSTANCIA QUE DESEJA CRIAR
 instance_type = "t2.micro"
@@ -21,7 +21,7 @@ ami_id = "ami-074d4dd5abaaaaf43"
 
 // TAGS DOS RECURSOS
 ambiente = "TESTE"
-billing  = "BASTION"
+billing  = "FRONTEND"
 dono     = "FOXNET"
 projeto  = "TESTE"
 
