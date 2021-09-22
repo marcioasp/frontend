@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sh '''
                 pwd
-                cd ../server-frontend/ec2-frontend/
+                cd ../frontend/ec2-frontend/
                 terraform init
                 terraform plan -out "frontend"
                 terraform apply "frontend"
@@ -17,7 +17,7 @@ pipeline {
             steps {
                 sh '''
                 pwd
-                cd ../server-frontend/ansible/
+                cd ../frontend/ansible/
                 ansible-playbook -i front-end.yml
                '''
             }
