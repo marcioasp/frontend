@@ -1,0 +1,7 @@
+---
+- name: Config Server Frontend
+  hosts: frontend
+  become: yes
+  
+  
+
